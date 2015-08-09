@@ -3,8 +3,8 @@
   	<meta charset="utf-8">
   	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.1/angular.min.js"></script>
   	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="Todo.css">
     <script type="text/javascript" src="Todo.js"></script>
-    <link rel="stylesheet" href="Todo.css">
     <title>Todo</title>
   </head>
   <body ng-app="TodoApp">
@@ -23,7 +23,7 @@
   				</tr>
   				<tr ng-repeat="todo in todos">
   					<td><input type="checkbox" ng-model="todo.done"></td>
-  					<td><span class="done-{{todo.done}}">{{todo.message}}</td>
+  					<td><span class="done-{{todo.done}}">{{todo.message}}aaaaa</span></td>
   				</tr>
   			</table>
   		</div>
